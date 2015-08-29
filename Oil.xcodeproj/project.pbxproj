@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FED6B01B925C6D00225C6C /* Oil.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FED6AF1B925C6D00225C6C /* Oil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09FED6B61B925C6E00225C6C /* Oil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FED6AA1B925C6D00225C6C /* Oil.framework */; };
+		09FED6BD1B925C6E00225C6C /* OilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FED6BC1B925C6E00225C6C /* OilTests.swift */; };
+		09FED6C71B925E8400225C6C /* RemoteOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FED6C61B925E8400225C6C /* RemoteOperation.swift */; };
+		1D73389C80A1B8E5AEA53ABC /* Pods_OilTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08647F35548D079A579644C7 /* Pods_OilTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8695954A2E3EEC774793B612 /* Pods_Oil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A383872945A556D3B17194DC /* Pods_Oil.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		88F1616FCE42DA70D49FEB97 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 88F169470F6390CF2CCD563A /* Podfile */; };
+		88F16391C8823F03C30BE728 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 88F16A2EFE7152A55B478FD0 /* LICENSE */; };
+		88F16F9C568F004A08DF93D4 /* Oil.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 88F165EBAAEA88EB80BEFB9F /* Oil.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09FED6B71B925C6E00225C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09FED6A11B925C6D00225C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FED6A91B925C6D00225C6C;
+			remoteInfo = Oil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08647F35548D079A579644C7 /* Pods_OilTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OilTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FED6AA1B925C6D00225C6C /* Oil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Oil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FED6AE1B925C6D00225C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FED6AF1B925C6D00225C6C /* Oil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Oil.h; sourceTree = "<group>"; };
+		09FED6B51B925C6E00225C6C /* OilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FED6BB1B925C6E00225C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FED6BC1B925C6E00225C6C /* OilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OilTests.swift; sourceTree = "<group>"; };
+		09FED6C61B925E8400225C6C /* RemoteOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteOperation.swift; sourceTree = "<group>"; };
+		144943713E3B097B8B7DCBB3 /* Pods-OilTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OilTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OilTests/Pods-OilTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B73399FC7F5D887FF0D18D6 /* Pods-OilTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OilTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OilTests/Pods-OilTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62C5F75B2AEDEE0AC76FA041 /* Pods-Oil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oil.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oil/Pods-Oil.release.xcconfig"; sourceTree = "<group>"; };
+		88F165EBAAEA88EB80BEFB9F /* Oil.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Oil.podspec; sourceTree = "<group>"; };
+		88F169470F6390CF2CCD563A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		88F16A2EFE7152A55B478FD0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8D2E44180E5EE17AE7AA907B /* Pods-Oil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oil/Pods-Oil.debug.xcconfig"; sourceTree = "<group>"; };
+		A383872945A556D3B17194DC /* Pods_Oil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FED6A61B925C6D00225C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8695954A2E3EEC774793B612 /* Pods_Oil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FED6B21B925C6E00225C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FED6B61B925C6E00225C6C /* Oil.framework in Frameworks */,
+				1D73389C80A1B8E5AEA53ABC /* Pods_OilTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FED6A01B925C6D00225C6C = {
+			isa = PBXGroup;
+			children = (
+				09FED6AC1B925C6D00225C6C /* Oil */,
+				09FED6B91B925C6E00225C6C /* OilTests */,
+				09FED6AB1B925C6D00225C6C /* Products */,
+				CC445518D84BA2EB60C6D4BA /* Pods */,
+				CA13368251596BD749707D8F /* Frameworks */,
+				88F16A2EFE7152A55B478FD0 /* LICENSE */,
+				88F165EBAAEA88EB80BEFB9F /* Oil.podspec */,
+				88F169470F6390CF2CCD563A /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		09FED6AB1B925C6D00225C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FED6AA1B925C6D00225C6C /* Oil.framework */,
+				09FED6B51B925C6E00225C6C /* OilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FED6AC1B925C6D00225C6C /* Oil */ = {
+			isa = PBXGroup;
+			children = (
+				09FED6C61B925E8400225C6C /* RemoteOperation.swift */,
+				09FED6AF1B925C6D00225C6C /* Oil.h */,
+				09FED6AD1B925C6D00225C6C /* Supporting Files */,
+			);
+			path = Oil;
+			sourceTree = "<group>";
+		};
+		09FED6AD1B925C6D00225C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09FED6AE1B925C6D00225C6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09FED6B91B925C6E00225C6C /* OilTests */ = {
+			isa = PBXGroup;
+			children = (
+				09FED6BC1B925C6E00225C6C /* OilTests.swift */,
+				09FED6BA1B925C6E00225C6C /* Supporting Files */,
+			);
+			path = OilTests;
+			sourceTree = "<group>";
+		};
+		09FED6BA1B925C6E00225C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09FED6BB1B925C6E00225C6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA13368251596BD749707D8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A383872945A556D3B17194DC /* Pods_Oil.framework */,
+				08647F35548D079A579644C7 /* Pods_OilTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC445518D84BA2EB60C6D4BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D2E44180E5EE17AE7AA907B /* Pods-Oil.debug.xcconfig */,
+				62C5F75B2AEDEE0AC76FA041 /* Pods-Oil.release.xcconfig */,
+				3B73399FC7F5D887FF0D18D6 /* Pods-OilTests.debug.xcconfig */,
+				144943713E3B097B8B7DCBB3 /* Pods-OilTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09FED6A71B925C6D00225C6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FED6B01B925C6D00225C6C /* Oil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09FED6A91B925C6D00225C6C /* Oil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FED6C01B925C6E00225C6C /* Build configuration list for PBXNativeTarget "Oil" */;
+			buildPhases = (
+				E1ED22370DE99F8A89C6D8CA /* Check Pods Manifest.lock */,
+				09FED6A51B925C6D00225C6C /* Sources */,
+				09FED6A61B925C6D00225C6C /* Frameworks */,
+				09FED6A71B925C6D00225C6C /* Headers */,
+				09FED6A81B925C6D00225C6C /* Resources */,
+				EA7C0484F2156B370AA1ED47 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oil;
+			productName = Oil;
+			productReference = 09FED6AA1B925C6D00225C6C /* Oil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		09FED6B41B925C6E00225C6C /* OilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FED6C31B925C6E00225C6C /* Build configuration list for PBXNativeTarget "OilTests" */;
+			buildPhases = (
+				A543C556133A252BABCBDE14 /* Check Pods Manifest.lock */,
+				09FED6B11B925C6E00225C6C /* Sources */,
+				09FED6B21B925C6E00225C6C /* Frameworks */,
+				09FED6B31B925C6E00225C6C /* Resources */,
+				5EEFC1D22D9ACE9C17594D38 /* Embed Pods Frameworks */,
+				CE1F6C9438A7DBECB84C8ED2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09FED6B81B925C6E00225C6C /* PBXTargetDependency */,
+			);
+			name = OilTests;
+			productName = OilTests;
+			productReference = 09FED6B51B925C6E00225C6C /* OilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FED6A11B925C6D00225C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TheNest;
+				TargetAttributes = {
+					09FED6A91B925C6D00225C6C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					09FED6B41B925C6E00225C6C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 09FED6A41B925C6D00225C6C /* Build configuration list for PBXProject "Oil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09FED6A01B925C6D00225C6C;
+			productRefGroup = 09FED6AB1B925C6D00225C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FED6A91B925C6D00225C6C /* Oil */,
+				09FED6B41B925C6E00225C6C /* OilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FED6A81B925C6D00225C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F16391C8823F03C30BE728 /* LICENSE in Resources */,
+				88F16F9C568F004A08DF93D4 /* Oil.podspec in Resources */,
+				88F1616FCE42DA70D49FEB97 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FED6B31B925C6E00225C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EEFC1D22D9ACE9C17594D38 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OilTests/Pods-OilTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A543C556133A252BABCBDE14 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1F6C9438A7DBECB84C8ED2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OilTests/Pods-OilTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1ED22370DE99F8A89C6D8CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7C0484F2156B370AA1ED47 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oil/Pods-Oil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FED6A51B925C6D00225C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FED6C71B925E8400225C6C /* RemoteOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FED6B11B925C6E00225C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FED6BD1B925C6E00225C6C /* OilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09FED6B81B925C6E00225C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09FED6A91B925C6D00225C6C /* Oil */;
+			targetProxy = 09FED6B71B925C6E00225C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09FED6BE1B925C6E00225C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09FED6BF1B925C6E00225C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09FED6C11B925C6E00225C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2E44180E5EE17AE7AA907B /* Pods-Oil.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Oil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		09FED6C21B925C6E00225C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C5F75B2AEDEE0AC76FA041 /* Pods-Oil.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Oil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		09FED6C41B925C6E00225C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B73399FC7F5D887FF0D18D6 /* Pods-OilTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09FED6C51B925C6E00225C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144943713E3B097B8B7DCBB3 /* Pods-OilTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FED6A41B925C6D00225C6C /* Build configuration list for PBXProject "Oil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FED6BE1B925C6E00225C6C /* Debug */,
+				09FED6BF1B925C6E00225C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FED6C01B925C6E00225C6C /* Build configuration list for PBXNativeTarget "Oil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FED6C11B925C6E00225C6C /* Debug */,
+				09FED6C21B925C6E00225C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FED6C31B925C6E00225C6C /* Build configuration list for PBXNativeTarget "OilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FED6C41B925C6E00225C6C /* Debug */,
+				09FED6C51B925C6E00225C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FED6A11B925C6D00225C6C /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Oil {
+  umbrella header "Pods-Oil-umbrella.h"
+
+  export *
+  module * { export * }
+}
