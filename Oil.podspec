@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Oil"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Communicate easier between your UI and domain layers"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   DESC
+      Oil gives you an abstraction to communicate between your UI and domain layers in a way that standardizes
+      the regular code to handle successes, errors and UI operations such as turning on async indicators and populating
+      the UI with data in both success and error scenarios.
+    DESC
 
   s.homepage     = "https://github.com/TheNestOrg/Oil-iOS"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -90,7 +93,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  # s.source_files  = "Oil/**/*.{swift}"
+  s.source_files  = "Oil/**/*.{swift}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
