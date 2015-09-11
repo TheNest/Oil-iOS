@@ -7,6 +7,7 @@ import Foundation
 import Bolts
 
 
+// TODO(arch): Create a base DomainOperation class/protocol which this extends
 public class RemoteOperation<TResult> {
 
 	//
@@ -26,13 +27,13 @@ public class RemoteOperation<TResult> {
 	// PRAG: operations
 	//
 
-	public init(fetchRemoteData:BFTask/*<TResult>*/) {
+	public init(_ fetchRemoteData:BFTask/*<TResult>*/) {
 		_fetchRemoteDataTask = fetchRemoteData
 	}
 
 
 	public func hydrateView(
-		success: (TResult) -> () = { (result) in /*do nothing*/ },
+		success success: (TResult) -> () = { (result) in /*do nothing*/ },
 		error: (NSError) -> () = { (error) in /*do nothing*/ }
 	) -> RemoteOperation<TResult> {
 		_hydrateViewSuccessCallback = success
@@ -43,7 +44,7 @@ public class RemoteOperation<TResult> {
 
 
 	public func asyncIndicators(
-		activate: () -> () = { /*do nothing*/ },
+		activate activate: () -> () = { /*do nothing*/ },
 		deactivate: () -> () = { /*do nothing*/ }
 //		activateSecondary: (() -> Unit)? = null,
 //		deactivateSecondary: (() -> Unit)? = null
