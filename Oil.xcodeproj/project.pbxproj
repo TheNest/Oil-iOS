@@ -11,10 +11,11 @@
 		09FED6B61B925C6E00225C6C /* Oil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FED6AA1B925C6D00225C6C /* Oil.framework */; };
 		09FED6BD1B925C6E00225C6C /* OilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FED6BC1B925C6E00225C6C /* OilTests.swift */; };
 		09FED6C71B925E8400225C6C /* RemoteOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FED6C61B925E8400225C6C /* RemoteOperation.swift */; };
-		1D73389C80A1B8E5AEA53ABC /* Pods_OilTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08647F35548D079A579644C7 /* Pods_OilTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		8695954A2E3EEC774793B612 /* Pods_Oil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A383872945A556D3B17194DC /* Pods_Oil.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1D73389C80A1B8E5AEA53ABC /* Pods_OilTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08647F35548D079A579644C7 /* Pods_OilTests.framework */; };
+		8695954A2E3EEC774793B612 /* Pods_Oil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A383872945A556D3B17194DC /* Pods_Oil.framework */; };
 		88F1616FCE42DA70D49FEB97 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 88F169470F6390CF2CCD563A /* Podfile */; };
 		88F16391C8823F03C30BE728 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 88F16A2EFE7152A55B478FD0 /* LICENSE */; };
+		88F16B22A948D64F99872BA0 /* PublishingSteps.txt in Resources */ = {isa = PBXBuildFile; fileRef = 88F16E9A0584A4E8C5AB569A /* PublishingSteps.txt */; };
 		88F16F9C568F004A08DF93D4 /* Oil.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 88F165EBAAEA88EB80BEFB9F /* Oil.podspec */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +42,9 @@
 		3B73399FC7F5D887FF0D18D6 /* Pods-OilTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OilTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OilTests/Pods-OilTests.debug.xcconfig"; sourceTree = "<group>"; };
 		62C5F75B2AEDEE0AC76FA041 /* Pods-Oil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oil.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oil/Pods-Oil.release.xcconfig"; sourceTree = "<group>"; };
 		88F165EBAAEA88EB80BEFB9F /* Oil.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Oil.podspec; sourceTree = "<group>"; };
-		88F169470F6390CF2CCD563A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		88F169470F6390CF2CCD563A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		88F16A2EFE7152A55B478FD0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		88F16E9A0584A4E8C5AB569A /* PublishingSteps.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PublishingSteps.txt; sourceTree = "<group>"; };
 		8D2E44180E5EE17AE7AA907B /* Pods-Oil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oil/Pods-Oil.debug.xcconfig"; sourceTree = "<group>"; };
 		A383872945A556D3B17194DC /* Pods_Oil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 				88F16A2EFE7152A55B478FD0 /* LICENSE */,
 				88F165EBAAEA88EB80BEFB9F /* Oil.podspec */,
 				88F169470F6390CF2CCD563A /* Podfile */,
+				88F16E9A0584A4E8C5AB569A /* PublishingSteps.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -245,6 +248,7 @@
 				88F16391C8823F03C30BE728 /* LICENSE in Resources */,
 				88F16F9C568F004A08DF93D4 /* Oil.podspec in Resources */,
 				88F1616FCE42DA70D49FEB97 /* Podfile in Resources */,
+				88F16B22A948D64F99872BA0 /* PublishingSteps.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

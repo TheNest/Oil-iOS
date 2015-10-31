@@ -1,10 +1,10 @@
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target 'Oil' do
-	pod 'Bolts', '~> 1.2.2'
+	pod 'Bolts', '~> 1.4.0'
 end
 
 target 'OilTests' do
-	pod 'Bolts', '~> 1.2.2'
+	pod 'Bolts', '~> 1.4.0'
 end
